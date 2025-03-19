@@ -27,7 +27,7 @@
                 password: document.getElementById('password').value
             };
 
-            fetch('YOUR_GOOGLE_APPS_SCRIPT_URL', {
+            fetch('https://script.google.com/macros/s/AKfycbwgMq4FHHyUttwX_ekSsqZ4D-XMGOwUfk9Z1bENmSMCF4r3sIEr2lLEUAIX9WY_OynM/exec', {
                 method: 'POST',
                 body: JSON.stringify(formData),
                 headers: { 'Content-Type': 'application/json' }
